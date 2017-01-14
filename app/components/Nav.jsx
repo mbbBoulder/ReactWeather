@@ -1,10 +1,10 @@
 var React = require('react');
 var {Link, IndexLink} = require('react-router');
 
-var Nav = React.createClass ({
+var Nav = React.createClass({
   onSearch: function (e) {
-    e.preventDefault();
-    alert('not yet implemented');
+      e.preventDefault();
+      alert('Not yet wired up!');
   },
   render: function () {
     return (
@@ -16,7 +16,7 @@ var Nav = React.createClass ({
               <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
             </li>
             <li>
-              <Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
+              <Link to="/about" activeClassName="active"  activeStyle={{fontWeight: 'bold'}}>About</Link>
             </li>
             <li>
               <Link to="/examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</Link>
